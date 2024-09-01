@@ -3,6 +3,8 @@ A small CLI tool to split small files into base64 blocks and read and combine ba
 
 Suitable for storing files into CI/CD variables, e.g. certificates.
 
+[![Release](https://github.com/VPKSoftOrg/FileToVariables/actions/workflows/release.yml/badge.svg)](https://github.com/VPKSoftOrg/FileToVariables/actions/workflows/release.yml) [![Rust](https://github.com/VPKSoftOrg/FileToVariables/actions/workflows/rust.yml/badge.svg)](https://github.com/VPKSoftOrg/FileToVariables/actions/workflows/rust.yml)
+
 `.\FileToVariables.exe --help`:
 ```
 A simple program to encode data to base64 and decode it back
