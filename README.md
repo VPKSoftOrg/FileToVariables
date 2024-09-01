@@ -33,3 +33,6 @@ dataxyz03=R0VNRU5ULiBJTiBOTyBFVkVOVCBTSEFMTCBUSEUKQVVUSE9SUyBPUiBDT1BZUklHSFQgSE
 ```
 `.\FileToVariables.exe --file ../../LICENSE_NEW --var-format "dataxyz{i}" read`:
 &rarr; We get the MIT license from the environment variables back.
+
+## Thanks to:
+* [upload-rust-binary-action](https://github.com/taiki-e/upload-rust-binary-action)
