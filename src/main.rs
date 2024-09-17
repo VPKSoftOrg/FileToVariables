@@ -29,13 +29,11 @@ struct Args {
     #[arg(short, long)]
     file: String,
 
-    /// The mode for the data content. Allowed values: encrypt, decrypt, decrypt-string.
+    /// The mode for the data content. Allowed values: read, write.
     ///
-    /// encrypt: Encrypts the data content.
+    /// read: Reads the data from environment variables and writes them to a file.
     ///
-    /// decrypt: Decrypts the data content and returns the decrypted data in base64-format.
-    ///
-    /// decrypt-string: Decrypts the data content and returns the decrypted data in an UTF-8 string-format.
+    /// write: Writes the data from a file to output.
     #[command(subcommand)]
     mode: Mode,
 
